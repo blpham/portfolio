@@ -1,14 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import HomePage from "./pages/homepage/index.js";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
+import HomePage from "./pages/homepage/index.js";
+import PortfolioPage from "./pages/portfolioPage";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <HomePage />,
+  },
+  {
+    path: "/portfolio",
+    element: <PortfolioPage />,
   },
 ]);
 
