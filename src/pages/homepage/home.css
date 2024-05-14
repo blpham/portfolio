@@ -1,7 +1,11 @@
 #home-page {
-  margin: auto;
   text-align: center;
   padding: 20% 0;
+  position: absolute;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -300px 0 0 -75px;
 
   animation-name: fadeInFromBottom;
   animation-duration: 1.5s;

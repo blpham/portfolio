@@ -1,6 +1,8 @@
 #folder {
   text-align: center;
   cursor: pointer;
+  width: 150px;
+  height: 110px;
 }
 
 #file-img {
