@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  border-bottom: 1px solid rgb(55, 55, 55);
+}
+
+.navbar img {
+  width: 10px;
+  padding: 10px;
+}
+
+.navbar h1 {
+  font-size: 20px;
+}
+
+#arrows {
+  padding-left: 40px;
+  padding-right: 30px;
+}

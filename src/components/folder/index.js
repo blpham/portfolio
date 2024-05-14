@@ -11,7 +11,7 @@ const Folder = ({ folderName, folderDisplayName }) => {
   return (
     <div id="folder" onClick={() => openFolder(folderName)}>
       <img id="file-img" alt="" src={fileImg} />
-      <h1>{folderDisplayName}</h1>
+      <h3>{folderDisplayName}</h3>
     </div>
   );
 };

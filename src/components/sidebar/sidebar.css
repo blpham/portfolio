@@ -1,0 +1,35 @@
+#sidebar {
+  width: 180px;
+  height: 535px;
+  padding-left: 20px;
+  padding-top: 15px;
+  border-right: 1px solid rgb(55, 55, 55);
+}
+
+#sidebar h2 {
+  font-size: 15px;
+  color: rgb(188, 188, 188);
+}
+
+#sidebar p {
+  font-size: 15px;
+  color: white;
+  padding: 7px;
+}
+
+#sidebar-links {
+  padding-left: 20px;
+}
+
+#sidebar-links a {
+  text-decoration: none;
+}
+
+#corner-buttons {
+  padding-bottom: 20px;
+}
+
+#corner-buttons img {
+  width: 13px;
+  padding: 3px;
+}

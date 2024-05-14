@@ -1,15 +1,15 @@
-#folder {
+#file {
   text-align: center;
   cursor: pointer;
 }
 
-#file-img {
+#txtfile-img {
   max-width: 65px;
   margin-left: auto;
   margin-right: auto;
 }
 
-#folder h3 {
+#file h3 {
   font-size: 15px;
   font-weight: normal;
   margin-top: 5px;
