@@ -7,7 +7,7 @@ function HomePage() {
     <div id="home-page">
       <Folder
         folderName="portfolio"
-        folderDisplayName="brenda pham portfolio ✩‧₊˚"
+        folderDisplayName="brenda pham's portfolio ✩‧₊˚"
       />
     </div>
   );
