@@ -13,9 +13,13 @@
   top: 50%;
   left: 50%;
   margin: -275px 0 0 -450px;
+
+  animation-name: fadeInFromBottom;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
 }
 
-#folder-body {
+.folder-body {
   max-width: 700px;
 }
 
@@ -30,6 +34,8 @@
   justify-items: center;
   align-content: space-evenly;
   padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .openfolder-nav {

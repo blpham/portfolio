@@ -19,3 +19,7 @@
   padding-left: 40px;
   padding-right: 30px;
 }
+
+#arrows img {
+  cursor: pointer;
+}

@@ -11,14 +11,14 @@
   color: rgb(188, 188, 188);
 }
 
-#sidebar p {
+#sidebar-links p {
   font-size: 15px;
   color: white;
   padding: 7px;
-}
-
-#sidebar-links {
-  padding-left: 20px;
+  padding-left: 15px;
+  border-radius: 8px;
+  width: 140px;
+  height: 20px;
 }
 
 #sidebar-links a {
@@ -32,4 +32,9 @@
 #corner-buttons img {
   width: 13px;
   padding: 3px;
+}
+
+#sidebar-links p:hover {
+  background-color: #696969;
+  transition: all 0.4s;
 }

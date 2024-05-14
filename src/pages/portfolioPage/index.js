@@ -11,7 +11,7 @@ function PortfolioPage() {
       <div className="openfolder-sidebar">
         <Sidebar />
       </div>
-      <div id="folder-body">
+      <div className="folder-body">
         <div className="openfolder-nav">
           <Navbar folderName="brenda pham ✩‧₊˚" />
         </div>

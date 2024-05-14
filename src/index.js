@@ -10,6 +10,7 @@ import AboutPage from "./pages/aboutpage";
 import ProjectsPage from "./pages/projectspage";
 import ExperiencePage from "./pages/experiencepage";
 import ContactPage from "./pages/contactpage";
+import ProjectCanticum from "./pages/Canticum";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <ContactPage />,
+  },
+  {
+    path: "/projects/canticum",
+    element: <ProjectCanticum />,
   },
 ]);
 
