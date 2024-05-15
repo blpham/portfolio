@@ -15,3 +15,8 @@
   margin-top: 5px;
   color: white;
 }
+
+#txtfile-img:hover {
+  scale: 1.2;
+  transition: all 0.4s;
+}

@@ -17,3 +17,8 @@ h3 {
   margin-top: 5px;
   color: white;
 }
+
+#file-img:hover {
+  scale: 1.2;
+  transition: all 0.4s;
+}
