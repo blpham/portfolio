@@ -18,6 +18,9 @@ const Sidebar = () => {
       </div>
       <h2>Folders</h2>
       <div id="sidebar-links">
+        <a href="/portfolio">
+          <p>brenda pham's portfolio ✩‧₊˚</p>
+        </a>
         <a href="/projects">
           <p>projects</p>
         </a>

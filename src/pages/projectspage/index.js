@@ -31,6 +31,7 @@ function ProjectsPage() {
           setTrigger={setCanticumButtonPopup}
         >
           <h1>Canticum: AI Music Recommendation System</h1>
+          <a href="https://www.canticum.tech/">canticum.tech ✩ </a>
           <a href="https://github.com/lyeric2022/canticum">view on Github</a>
           <p>- made for CPSC 481, Artificial Intelligence</p>
           <p>
@@ -40,7 +41,8 @@ function ProjectsPage() {
             Features, attributes provided by the Spotify Developers API. These
             will give numerical values to different audio attributes of a song,
             such as danceability, energy, key, tempo, etc. By taking these
-            attribtes, along with a track's genre and popularity, we recommend
+            attribtes, along with a track's genre and popularity, we recommend a
+            selection of songs that the user may like.
           </p>
           <h2>Tech Stack:</h2>
           <ul>

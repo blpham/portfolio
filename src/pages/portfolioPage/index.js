@@ -10,13 +10,13 @@ import "./portfolio.css";
 function PortfolioPage() {
   const [buttonPopup, setButtonPopup] = useState(false);
   return (
-    <div className="folder-background">
+    <div className="folder-background" id="portfolio-folder-background">
       <div className="openfolder-sidebar">
         <Sidebar />
       </div>
       <div className="folder-body">
         <div className="openfolder-nav">
-          <Navbar folderName="brenda pham ✩‧₊˚" />
+          <Navbar folderName="brenda pham's portfolio ✩‧₊˚" />
         </div>
         <div className="contents">
           <div onClick={() => setButtonPopup(true)}>
@@ -35,10 +35,10 @@ function PortfolioPage() {
             spending time with my loved ones. During my time in the field of
             computer science, I've been able to explore all sorts of new ideas.
             I enjoy working on the frontend, creating new and interesting
-            designs where I can.
+            designs where I can :D
           </p>
           <h2>✩ education</h2>
-          <p>B.S. Computer Science, California State University Fullerton</p>
+          <h3>B.S. Computer Science, California State University Fullerton</h3>
           <p>August 2021 to May 2025</p>
         </Popup>
       </div>
