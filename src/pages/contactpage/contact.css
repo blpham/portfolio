@@ -1,0 +1,12 @@
+.contents img {
+  width: 60px;
+  border-radius: 10px;
+}
+
+.contents {
+  text-align: center;
+}
+
+.social-link {
+  cursor: pointer;
+}

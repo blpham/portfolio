@@ -16,11 +16,8 @@ const Sidebar = () => {
         <img src={yellowcircle} />
         <img src={greencircle} />
       </div>
-      <h2>Featured</h2>
+      <h2>Folders</h2>
       <div id="sidebar-links">
-        <a href="/about">
-          <p>about me!</p>
-        </a>
         <a href="/projects">
           <p>projects</p>
         </a>
