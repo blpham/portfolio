@@ -1,9 +1,9 @@
 import React from "react";
 import { useState } from "react";
-import Navbar from "../../components/navbar";
-import Sidebar from "../../components/sidebar";
-import TxtFile from "../../components/txtfile";
-import Popup from "../../components/popup";
+import Navbar from "../components/navbar";
+import Sidebar from "../components/sidebar";
+import TxtFile from "../components/txtfile";
+import Popup from "../components/popup";
 
 function ExperiencePage() {
   const [InternButtonPopup, setInternButtonPopup] = useState(false);

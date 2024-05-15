@@ -6,10 +6,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import HomePage from "./pages/homepage/index.js";
 import PortfolioPage from "./pages/portfolioPage";
-import ProjectsPage from "./pages/projectspage";
-import ExperiencePage from "./pages/experiencepage";
+import ProjectsPage from "./pages/ProjectsPage";
+import ExperiencePage from "./pages/ExperiencePage";
 import ContactPage from "./pages/contactpage";
-import ProjectCanticum from "./pages/Canticum";
 
 const router = createBrowserRouter([
   {

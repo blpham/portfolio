@@ -1,5 +1,4 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import "./sidebar.css";
 
 import pinkcircle from "../../assets/pinkcircle.png";

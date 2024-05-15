@@ -1,10 +1,9 @@
 import React from "react";
 import { useState } from "react";
-import "./projects.css";
-import Popup from "../../components/popup";
-import Navbar from "../../components/navbar";
-import Sidebar from "../../components/sidebar";
-import TxtFile from "../../components/txtfile";
+import Popup from "../components/popup";
+import Navbar from "../components/navbar";
+import Sidebar from "../components/sidebar";
+import TxtFile from "../components/txtfile";
 
 function ProjectsPage() {
   const [CanticumButtonPopup, setCanticumButtonPopup] = useState(false);
