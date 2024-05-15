@@ -1,10 +1,10 @@
 # hello!
 
-i'm Brenda ~
+## i'm Brenda ~
 
-this is my portfolio website :)
+welcome to my portfolio website!
+(click on the file icon) ^-^
 
-made for CPSC 349 spring 2024 (WORK IN PROGRESS)
-
+made for CPSC 349, Spring 2024
 
 - built with React
