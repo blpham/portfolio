@@ -6,6 +6,7 @@ import TxtFile from "../components/txtfile";
 import Popup from "../components/popup";
 
 function ExperiencePage() {
+  // Define and initialize states for popup pages
   const [InternButtonPopup, setInternButtonPopup] = useState(false);
   const [WorkButtonPopup, setWorkButtonPopup] = useState(false);
   return (
@@ -25,6 +26,7 @@ function ExperiencePage() {
             <TxtFile fileDisplayName="work experience" />
           </div>
         </div>
+        // If triggered, display popup page with internship contents
         <Popup trigger={InternButtonPopup} setTrigger={setInternButtonPopup}>
           <h1>Previous Internships</h1>
           <h2>✩ Google STEP Intern - Google Cloud Dataflow</h2>
@@ -54,6 +56,7 @@ function ExperiencePage() {
             </li>
           </ul>
         </Popup>
+        // If triggered, display popup page with work experience
         <Popup trigger={WorkButtonPopup} setTrigger={setWorkButtonPopup}>
           <h1>Work Experience</h1>
           <h2>✩ Utility Person - Disney's Grand Californian Hotel</h2>

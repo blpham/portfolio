@@ -12,13 +12,13 @@ const Navbar = ({ folderName }) => {
         <img
           src={backarrow}
           onClick={() => {
-            navigate(-1);
+            navigate(-1); // navigate to previous page
           }}
         />
         <img
           src={forwardarrow}
           onClick={() => {
-            navigate(+1);
+            navigate(+1); // navigate forward to page (if exists)
           }}
         />
       </div>

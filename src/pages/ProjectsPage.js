@@ -6,6 +6,7 @@ import Sidebar from "../components/sidebar";
 import TxtFile from "../components/txtfile";
 
 function ProjectsPage() {
+  // Define and initialize states for popup pages
   const [CanticumButtonPopup, setCanticumButtonPopup] = useState(false);
   const [PortfolioButtonPopup, setPortfolioButtonPopup] = useState(false);
   return (
@@ -25,6 +26,7 @@ function ProjectsPage() {
             <TxtFile fileDisplayName="Personal Portfolio" />
           </div>
         </div>
+        // If triggered, display popup page with Canticum project information
         <Popup
           trigger={CanticumButtonPopup}
           setTrigger={setCanticumButtonPopup}
@@ -51,6 +53,7 @@ function ProjectsPage() {
             <li>Flask</li>
           </ul>
         </Popup>
+        // If triggered, display popup page with portfolio project information
         <Popup
           trigger={PortfolioButtonPopup}
           setTrigger={setPortfolioButtonPopup}

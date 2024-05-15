@@ -3,6 +3,7 @@ import "./popup.css";
 import ExitIcon from "../../assets/exiticon.png";
 
 const Popup = (props) => {
+  // If triggered, return popup page
   return props.trigger ? (
     <div className="popup">
       <div className="popup-inner">

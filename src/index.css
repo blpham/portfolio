@@ -25,6 +25,11 @@ code {
     monospace;
 }
 
+h1 {
+  color: white;
+}
+
+/* Universal styling for open folder pages */
 .folder-background {
   background-color: #525252;
   border-radius: 15px;
@@ -69,8 +74,4 @@ code {
 .openfolder-sidebar {
   max-width: 200px;
   height: 550px;
-}
-
-h1 {
-  color: white;
 }

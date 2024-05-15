@@ -10,6 +10,7 @@ import ProjectsPage from "./pages/ProjectsPage";
 import ExperiencePage from "./pages/ExperiencePage";
 import ContactPage from "./pages/contactpage";
 
+// Create router for page redirection
 const router = createBrowserRouter([
   {
     path: "/",
@@ -33,10 +34,8 @@ const router = createBrowserRouter([
   },
 ]);
 
+// Render react router
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<RouterProvider router={router} />);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

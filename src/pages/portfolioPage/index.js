@@ -8,6 +8,7 @@ import Popup from "../../components/popup";
 import "./portfolio.css";
 
 function PortfolioPage() {
+  // Define and initialize state for popup page
   const [buttonPopup, setButtonPopup] = useState(false);
   return (
     <div className="folder-background" id="portfolio-folder-background">
@@ -26,6 +27,7 @@ function PortfolioPage() {
           <Folder folderName="experience" folderDisplayName="experience" />
           <Folder folderName="contact" folderDisplayName="contact me :)" />
         </div>
+        // If triggered, display popup page with 'about me' contents
         <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
           <h1>Hi, I'm Brenda!</h1>
           <h2>✩ about me...</h2>

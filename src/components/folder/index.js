@@ -4,6 +4,7 @@ import fileImg from "../../assets/fileImg.png";
 import "./folder.css";
 
 const Folder = ({ folderName, folderDisplayName }) => {
+  // Upon click, navigate to corresponding page of folder
   const navigate = useNavigate();
   const openFolder = (name) => {
     navigate(`/${name}`);
