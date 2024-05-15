@@ -46,7 +46,7 @@ function ContactPage() {
             <h3>Github</h3>
           </div>
         </div>
-        // If triggered, display popup page with contact contents
+        {/* If triggered, display popup page with contact contents */}
         <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
           <h1>contact me!</h1>
           <p>Email: blpham@csu.fullerton.edu</p>

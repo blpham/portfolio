@@ -26,7 +26,7 @@ function ProjectsPage() {
             <TxtFile fileDisplayName="Personal Portfolio" />
           </div>
         </div>
-        // If triggered, display popup page with Canticum project information
+        {/* If triggered, display popup page with Canticum project information */}
         <Popup
           trigger={CanticumButtonPopup}
           setTrigger={setCanticumButtonPopup}
@@ -53,7 +53,7 @@ function ProjectsPage() {
             <li>Flask</li>
           </ul>
         </Popup>
-        // If triggered, display popup page with portfolio project information
+        {/* If triggered, display popup page with portfolio project information */}
         <Popup
           trigger={PortfolioButtonPopup}
           setTrigger={setPortfolioButtonPopup}

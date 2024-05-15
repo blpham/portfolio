@@ -27,7 +27,7 @@ function PortfolioPage() {
           <Folder folderName="experience" folderDisplayName="experience" />
           <Folder folderName="contact" folderDisplayName="contact me :)" />
         </div>
-        // If triggered, display popup page with 'about me' contents
+        {/* If triggered, display popup page with 'about me' contents */}
         <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
           <h1>Hi, I'm Brenda!</h1>
           <h2>✩ about me...</h2>
