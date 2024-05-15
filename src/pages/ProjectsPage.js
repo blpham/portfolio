@@ -40,10 +40,11 @@ function ProjectsPage() {
             user to input a song of their choice and recieve a list of similar
             sounding songs. These recommendations are based on a track's Audio
             Features, attributes provided by the Spotify Developers API. These
-            will give numerical values to different audio attributes of a song,
-            such as danceability, energy, key, tempo, etc. By taking these
-            attribtes, along with a track's genre and popularity, we recommend a
-            selection of songs that the user may like.
+            give numerical values to different audio attributes of a song (such
+            as danceability, energy, key, tempo, etc.) By taking these
+            attributes, along with a track's genre and popularity, we recommend
+            a selection of songs that the user may like - must have backend
+            running locally.
           </p>
           <h2>Tech Stack:</h2>
           <ul>
@@ -64,7 +65,7 @@ function ProjectsPage() {
           <p>‧₊˚✩ made for CPSC 349, Web Frontend Development</p>
           <p>
             This is my personal portfolio site (the website you're on right
-            now)!! Built entirely with React JS. I implemented a file/folder
+            now)! Built entirely with React JS. I implemented a file/folder
             design, heavily inspired by MacOS's Finder.
           </p>
           <h2>Tech Stack:</h2>
