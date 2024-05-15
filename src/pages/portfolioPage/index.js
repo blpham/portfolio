@@ -42,6 +42,14 @@ function PortfolioPage() {
           <h2>✩ education</h2>
           <h3>B.S. Computer Science, California State University Fullerton</h3>
           <p>August 2021 to May 2025</p>
+          <h2>✩ technical skills</h2>
+          <ul>
+            <li>
+              Programming Languages: C++, Python, HTML, Javascript, CSS, C, Java
+            </li>
+            <li>Frameworks: React JS, Flask</li>
+            <li>Other Technologies: Apache Airflow, Pandas, Scikit Learn</li>
+          </ul>
         </Popup>
       </div>
     </div>

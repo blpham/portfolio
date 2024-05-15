@@ -10,3 +10,8 @@
 .social-link {
   cursor: pointer;
 }
+
+.contents img:hover {
+  scale: 1.1;
+  transition: all 0.4s;
+}

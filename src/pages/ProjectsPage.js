@@ -34,7 +34,7 @@ function ProjectsPage() {
           <h1>Canticum: AI Music Recommendation System</h1>
           <a href="https://www.canticum.tech/">canticum.tech ✩ </a>
           <a href="https://github.com/lyeric2022/canticum">view on Github</a>
-          <p>- made for CPSC 481, Artificial Intelligence</p>
+          <p>‧₊˚✩ made for CPSC 481, Artificial Intelligence</p>
           <p>
             This is an AI music recommender based on audio features. It allows a
             user to input a song of their choice and recieve a list of similar
@@ -51,6 +51,7 @@ function ProjectsPage() {
             <li>React JS (JSX, CSS)</li>
             <li>Node JS</li>
             <li>Flask</li>
+            <li>Frontend deployed on Vercel</li>
           </ul>
         </Popup>
         {/* If triggered, display popup page with portfolio project information */}
@@ -60,7 +61,7 @@ function ProjectsPage() {
         >
           <h1>Personal Portfolio Website</h1>
           <a href="https://github.com/blpham/portfolio">view on Github</a>
-          <p>- made for CPSC 349, Web Frontend Development</p>
+          <p>‧₊˚✩ made for CPSC 349, Web Frontend Development</p>
           <p>
             This is my personal portfolio site (the website you're on right
             now)!! Built entirely with React JS. I implemented a file/folder
@@ -70,7 +71,7 @@ function ProjectsPage() {
           <ul>
             <li>React JS (JSX, CSS)</li>
             <li>Node JS</li>
-            <li>Vercel</li>
+            <li>Deployed on Vercel</li>
           </ul>
         </Popup>
       </div>
