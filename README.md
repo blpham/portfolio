@@ -1,11 +1,10 @@
-# hello!
+# ✧ Welcome to my Portfolio!
+click on the file icon on home page ^-^
 
-## i'm Brenda ~
+## ✧ How It's Made
+**Tech Stack:**
+- React JS
+- CSS
+- Node.js
 
-welcome to my portfolio website! (click on the file icon on home page) ^-^
-
-> https://brenda-pham-portfolio.vercel.app/
-
-made for CPSC 349, Spring 2024
-
-- built with React
+#### ~ Made for CPSC 349, Spring 2024
